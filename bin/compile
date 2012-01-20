@@ -33,7 +33,7 @@ unset GIT_DIR
 NODE_VERSION="0.6.7"
 NPM_VERSION="1.1.0-beta-10"
 SCONS_VERSION="1.2.0"
-S3_BUCKET="heroku-node-0.6.7"
+S3_BUCKET="heroku-node-set"
 
 # parse and derive params
 BUILD_DIR=$1
