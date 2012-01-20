@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
@@ -33,7 +33,8 @@ mkdir -p $tempdir
 pushd $tempdir
 
 # download and extract node
-curl http://nodejs.org/dist/node-v${node_version}.tar.gz -o node.tgz
+#curl http://nodejs.org/dist/node-v${node_version}.tar.gz -o node.tgz
+curl http://nodejs.org/dist/v${node_version}/node-v${node_version}.tar.gz -o node.tgz
 tar xzvf node.tgz
 
 # go into node dir
